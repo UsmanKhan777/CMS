@@ -1,0 +1,31 @@
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+
+    	function add_courses_btn_test() { 
+
+      //*************************ADD COURSE BUTTON TEST********************
+
+
+			      $.ajax({
+			 type: "GET",
+			 url:'/search-add-route',
+			 error: function(xhr, error){
+			        
+
+			        console.log("error!! NO COURSE CAN BE ADDED BECAUSE NO DATABASE ATTACHED!!");
+			 },
+			 success: function(xhr, error){
+			     
+			        console.log("success!!");
+			 },
+
+			});
+
+        
+
+    };
+
+    add_courses_btn_test();
+
+
+	</script>

@@ -1,0 +1,11 @@
+-Extract all the files in a separate folder to avoid confusion
+-Open command prompt and browse the folder in which you have extracted the files
+-Navigate through the folder on command prompt to open 'Project Code Files'
+-Install mongodb using 'npm install mongodb'
+-Install all the node modules using 'npm install'
+-Run 'npm init' as well
+-Now execute the command 'node myServer.js'
+-A message stating 'Connected' will be displayed
+-Open your browser and write 'localhost:5000' in the address bar
+-The program will be executed and the login page will be displayed
+-Enter 'hraza/hkhan/ukhan' in the username and password fields to access the CMS account

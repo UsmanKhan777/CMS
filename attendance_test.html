@@ -1,0 +1,29 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+    function Attendance_test() { 
+
+  //*************************Attendance TEST********************
+
+
+              $.ajax({
+         type: "GET",
+         url:'/show-attendance',
+         error: function(xhr, error){
+                
+
+                console.log("error! Attendannce is not displayed because the database is not connected");
+         },
+         success: function(xhr, error){
+             
+                console.log("success!!");
+         },
+
+        });
+
+    
+
+};
+
+Attendance_test();
+</script>
